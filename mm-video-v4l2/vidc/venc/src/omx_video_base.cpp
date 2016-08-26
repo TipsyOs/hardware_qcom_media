@@ -3078,6 +3078,7 @@ OMX_ERRORTYPE  omx_video::allocate_output_buffer(
             m_pOutput_pmem[i].offset = 0;
 
             m_pOutput_pmem[i].buffer = NULL;
+
             *bufferHdr = (m_out_mem_ptr + i );
 
             if(!secure_session) {
